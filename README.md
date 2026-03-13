@@ -3,3 +3,9 @@ Este codigo esta basado en un diccionario, uan cadena donde guardamos el texto t
 El for nos compara que letra o numero es, despues de la comparacion no da el texto traducdio a braile
 Por ulitmo imprimimos la cadena donde esta el texto traducido
 Por limites de tiempo no pudimos agregar mas funciones para este traductor y evitar errores 
+
+
+
+JUAN ESTEBAN RAIGOSA
+JUAN CAMILO BLANDON
+JUAN DAVID RUBIO
