@@ -23,7 +23,10 @@ for caracter in palabra:
     if caracter in braille:
          textoTraducido += braille[caracter]
     else :
-         print ("no pudimos traducir")
+         continue
 
 
 print (textoTraducido)
+archivo = open("braille.txt", "w", encoding="utf-8")
+archivo.write(textoTraducido)
+archivo.close()
