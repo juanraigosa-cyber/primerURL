@@ -13,9 +13,17 @@ braille = {
 
     " ": " "
 }
+# La nueva funcion agregada sirve para avisar caracteres no soportados
+def verificar_caracteres(texto, diccionario):
+    errores = [c for c in texto if c not in diccionario]
+    if errores:
+        print("Atención: Los siguientes caracteres no tienen traducción en Braille:", errores)
 
 palabra = input("Ingrese el texto a traducir: ").lower() #pedimos la palbra
 #y pasamos todo a minuscula
+
+# Llamamos la nueva función
+verificar_caracteres(palabra, braille)
 
 textoTraducido = "" #aqui guardamos el texto en braile
 
